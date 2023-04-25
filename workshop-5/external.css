@@ -1,0 +1,41 @@
+*{
+    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: blue;
+    background-color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: brown;
+    background-color: pink;
+    text-align: left;
+    font-style: italic;
+    font-size: 35px;
+}
+img{
+    height: 600px;
+    width: 600px;
+}
+#demo{
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 36px;
+}
+img[alt]{
+    color: green;
+}
+p:hover{
+    color: green;
+}

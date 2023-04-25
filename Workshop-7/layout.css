@@ -1,0 +1,47 @@
+*{
+    font-family: 'Alkatra', cursive;
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+}
+.son{
+    width: 50%;
+    background-color: pink;
+    float: right;
+}
+.daughter{
+    width: 50%;
+    float: left;
+}
+img{
+    width: 700px;
+    height: auto;
+}
+/* Mobile View */
+@media (min-width:320px) and (max-width:480px){
+    h1{
+        background-color: grey;
+        color: aqua;
+    }
+    .daughter{
+        width: 100%;
+    }
+    .son{
+        width: 100%;
+    }
+    .daughter img{
+        width: 100%;
+    }
+}
+/* Tablet View */
+@media (min-width:481px) and (max-width:768px){
+
+}
+/* Laptop View */
+@media (min-width:769px) and (max-width:1024px){
+    
+}
